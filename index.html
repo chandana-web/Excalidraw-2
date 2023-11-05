@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Excalidraw</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
+
 <body>
-    <h1>hhhh</h1>
+    <div id="root">
+        <div id="top">
+            <button id="menu" class="btn material-icons">menu</button>
+            <div id="options">
+                <button class="btn material-symbols-outlined">square</button>
+                <button class="btn material-symbols-outlined">circle</button>
+                <button class="btn material-symbols-outlined">stat_0</button>
+                <button class="btn material-symbols-outlined">east</button>
+                <button class="btn material-symbols-outlined">remove</button>
+                <button class="btn material-symbols-outlined">edit</button>
+                <button class="btn material-symbols-outlined">text_format</button>
+                <button class="btn material-symbols-outlined">gallery_thumbnail</button>
+                <button class="btn material-symbols-outlined">ink_eraser</button>
+            </div>
+            <div></div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div id="bottom">
+            <button class="btn material-symbols-outlined">undo</button>
+            <button class="btn material-symbols-outlined">redo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
