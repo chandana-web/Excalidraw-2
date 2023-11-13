@@ -45,9 +45,12 @@
     font-size: 20px;
     border-radius: 4px;
 }
-#top .btn:hover{
-    background-color: #e0dfff;    ;
-    border-radius: 10px;
+.btn:hover, .active{
+    background-color: #e0dfff !important;    ;
+    border-radius: 10px !important;
+}
+.active{
+    background-color: #e0dfff;
 }
 #bottom{
     background-color: #ececf4;
@@ -67,7 +70,4 @@
     padding: 2px ;
     cursor: pointer ;
 }
-#bottom .btn:hover{
-    background-color: #e0dfff; 
-    
-}
+
